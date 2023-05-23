@@ -49,7 +49,7 @@ Additionnaly we have their website [GRPC](https://www.kaseportal.com/grpc).
 
 ## Getting to know the town
 
-**Q1 What is the name of the protestor's relative that was the first to own land on what is now Glen Rock?**
+**Q1 - What is the name of the protestor's relative that was the first to own land on what is now Glen Rock?**
 
 ![William Heathcote](img/Q1.png)
 
@@ -57,7 +57,7 @@ For this question, I could find the anwser by looking at the history of Glen Roc
 
 > 🚩Flag: *William Heathcote*
 
-**Q2 What is the name of the main Railroad through town?**
+**Q2 - What is the name of the main Railroad through town?**
 
 ![Railroad](img/Q2.png)
 
@@ -69,7 +69,7 @@ To confirm my finding, I can use google maps to make sure this is the correct ra
 
 > 🚩Flag: *Northern Central Railway*
 
-**Q3 On the side of the local library, what does the third part of the mural say?**
+**Q3 - On the side of the local library, what does the third part of the mural say?**
 
 I could find the local library by searching on Google maps.
 
@@ -88,7 +88,7 @@ I could read the writing of the mural using this picture. After trying the flag 
 
 > 🚩Flag: *First National Bank*
   
-**Q4 Which female artist donated her pastel work "under the rainbow" to the library?**
+**Q4 - Which female artist donated her pastel work "under the rainbow" to the library?**
 
 I was stuck on this one because I couldn't find the pastel work. But after using Google dorking, I found a [newspaper](https://issuu.com/engleprintingandpublishing/docs/ccs_102319) talking about a library diplaying artwork. After reading the article, I was able to get the flag.
 
@@ -96,7 +96,7 @@ I was stuck on this one because I couldn't find the pastel work. But after using
 
 > 🚩Flag: *Maryanne Smith*
 
-**Q5 What is the street name of Maryanne’s studio?**
+**Q5 - What is the street name of Maryanne’s studio?**
 
 A good Google search can flag this one. After searching for "Maryanne Smith studio glen rock", I get a [Linkedin](https://www.linkedin.com/in/maryanne-smith-0a6bb757) profile and a website selling [art](https://auctions.slamquest.org/SLA-55-Altay-Argali-Painting-by-Maryanne-Smith_i35406483) for auction.
 
@@ -106,7 +106,7 @@ Maryanne studio location can be found in the item description.
 
 > 🚩Flag: *Ronald Street*
 
-**Q6 Where was this taken in town?**
+**Q6 - Where was this taken in town?**
 
 ![tag](img/tag.png)
 
@@ -116,7 +116,7 @@ I could find the place by reversing it on Google image, it was linked to a [Face
 
 > 🚩Flag: *Ruins Hall*
 
-**Q7 The protester was attending an event there on June 8th 2018 what was it?**
+**Q7 - The protester was attending an event there on June 8th 2018 what was it?**
 
 This one was a little bit complicated for me because I was looking for any post or article at this date.
 
@@ -131,7 +131,7 @@ From here, I found the flag in the post description.
 
 > 🚩Flag: *Movie Night*
 
-**Q8 Which movie was shown at the event?**
+**Q8 - Which movie was shown at the event?**
 
 The answer of the question was also in the post but under it was a poll where we could choose for the movie.
 
@@ -141,7 +141,7 @@ The flag here is the most voted movie.
 
 > 🚩Flag: *Back To The Future*
 
-**Q9 What was the high temp on that day in Celsius(Only one decimal point is needed)?**
+**Q9 - What was the high temp on that day in Celsius(Only one decimal point is needed)?**
 
 A quick search on Google and a website that archive the weather data helped me to find the flag.
 
@@ -179,7 +179,7 @@ We are texting our boss, George Hammond, because we couldn't get inside the part
 
 ## The Employees
 
-**Q10 Who created this flyer?**
+**Q10 - Who created this flyer?**
 
 For this flag, I used the metadata of the flyer we got from earlier and from the author of the file, I got the flag.
 
@@ -187,7 +187,7 @@ For this flag, I used the metadata of the flyer we got from earlier and from the
 
 > 🚩Flag: *Patti Stanton*
 
-**Q11 What is Patti's favorite thing to do?**
+**Q11 - What is Patti's favorite thing to do?**
 
 There is only one place where we can see any information about her: the company website we saw earlier.
 
@@ -197,7 +197,7 @@ https://www.kaseportal.com/grpc
 
 > 🚩Flag: *Staycations*
 
-**Q12 What is Patti's home SSID?**
+**Q12 - What is Patti's home SSID?**
 
 For this question, I didn't even know that OSINT on SSID or WiFi was possible so look it up on Google for the first time. And I found a website showing how to do OSINT on SSID using the website : https://wigle.net .
 
@@ -224,7 +224,7 @@ But after looking for "staycation", it finds 1 Wifi router in Glen Rock.
 
 > 🚩Flag: *staycation Wifi*
 
-**Q13 What is the BSSID?**
+**Q13 - What is the BSSID?**
 
 After finding her SSID, I find that the website store a few information about that router.
 
@@ -232,11 +232,11 @@ After finding her SSID, I find that the website store a few information about th
 
 > 🚩Flag: *3C:7A:8A:93:D2:5E*
 
-**Q14 What year was this BSSID first seen?**
+**Q14 - What year was this BSSID first seen?**
 
 > 🚩Flag: *2021*
 
-**Q15 What is the vendor of this device?**
+**Q15 - What is the vendor of this device?**
 
 For this question, I know that every device has its vendor name if we search on MAC address database.
 
@@ -246,7 +246,7 @@ https://mac.lc/address/3C-7A-8A
 
 > 🚩Flag: *ARRIS Group*
 
-**Q16 What is the parent company of Arris Group Inc?**
+**Q16 - What is the parent company of Arris Group Inc?**
 
 This question was a bit trickier than I thought because if we just put the parent company written on wikipedia, it doesn't work.
 
@@ -262,7 +262,7 @@ But if we just look at the parent company before the current one bought it, we h
 
 ## Campaign funding
 
-**Q17 How much money has GRPC donated to Alexander Ross?**
+**Q17 - How much money has GRPC donated to Alexander Ross?**
 
 This question take us back to the beginning where they give us the company website. Next to the the cocktail party flyer, we can see a few information about the company news.
 
@@ -272,7 +272,7 @@ After reading them, we find the information about Alexander Ross campaign.
 
 > 🚩Flag: *1,214,000*
 
-**Q18 What is the GRPC campaign phone number for Alexander Ross?**
+**Q18 - What is the GRPC campaign phone number for Alexander Ross?**
 
 When we had the website at the beginning, I already read everything on it to make sure I wasn't missing something. So the phone number was at the bottom of the page associated with Alexander Ross name.
 
@@ -280,7 +280,7 @@ When we had the website at the beginning, I already read everything on it to mak
 
 > 🚩Flag: *(931) 532-0554*
 
-**Q19 How much did Glen Rock Paper Company spend on PR services in 2022?**
+**Q19 - How much did Glen Rock Paper Company spend on PR services in 2022?**
 
 First, I thought that PR meant "press release" but after looking at the annual report for shareholders, I couldn't find anything that matches.
 
@@ -296,9 +296,84 @@ I ended up reading the whole report and found Public Relations Fees.
 
 We are taking a water sample from river and we are sending it to make test on it.
 
+---
+
 ## The locals
 
 Going back to the bar, we have a confrontation with the locals because we are not from the town and they are suspicions about us.
 
+---
+
 ## Who is P?
 
+We get new material from the discussion we have with Lisa the bartender, she revealed that the room we were sleeping in was her brother's bedroom. And that his name was Peter with his tragic story. So we can already link him with the "unknown sender" of the letter. She also gave us the intel gather by the detective investigation on his death.
+
+---
+
+## Voicemail from Peter
+
+We learn here that there is a photo that might be useful for later. Lisa is holding on it.
+
+---
+
+## Calling the lab
+
+After calling the lab, we thought that we could get some information about our water test but we ended up learning that someone cancelled the test with a fake email to the lab.
+
+---
+
+## Lab test cancelled
+
+![cancelled](img/cancellation.png)
+
+If we look at the email that sent the message, it's clear that someone is trying to stop us from testing the water. We got the e-mail address of the person at least.
+
+'rockthesocks1982@fastmail.com'
+
+---
+
+## Rock the socks
+
+**Q20 - What is the full name of the owner of this email address?**
+
+I tried to search for the email address on google in case I could find a hint, nothing here.
+
+![mail](img/mail.png)
+
+Maybe trying with the first part of the email address: "rockthesocks1982".Using the tool "[blackbird](https://blackbird-osint.herokuapp.com/)", I got 2 usable results. 
+
+![blackbird](img/black.png)
+
+The first one is a Facebook account but I couldn't get an access.
+
+![facebook](img/face.png)
+
+The second one is a Reddit account, I could see that he posted some comments.
+
+![reddit](img/reddit.png)
+
+Following the steam link, we find a steam account.
+We still stuck but at least the hint is good because the user is from Pennsylvania, the state of **Glenn Rock**.
+
+![steam](img/steam.png)
+
+I got stuck with this steam account for a long time until I decided to try everything I could on the website.
+So I ended up searching for the username "sloppyfpsgame1982" on the community page. After finding the account again, it also give us a name that looks like a real name.
+
+https://steamcommunity.com/search/users/#text=sloppyfpsgamer1982
+
+![john](img/john.png)
+
+The name is almost complete, we just need the last name of "John". With that hint in mind, I oriented my search in 2 ways:
+- the first one with a simple google search
+- the second one with the Facebook result we got from "Blackbird"
+
+The first one is not working or I didn't searched correctly.
+
+The second one is to search for "John B" on Facebook because we had a match on the username "rockthesocks1982" but we couldn't get a proper access.
+Using all the information we know about "John B", we can search with a filter like the location.
+
+![filter](img/name.png)
+![Q20](img/Q20.png)
+
+> 🚩Flag: *John Banks*
