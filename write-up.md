@@ -377,3 +377,129 @@ Using all the information we know about "John B", we can search with a filter li
 ![Q20](img/Q20.png)
 
 > 🚩Flag: *John Banks*
+
+**Q21 - What year was he born?**
+
+We could guess the answer based on the username used on his social media account.
+
+> 🚩Flag: *1982*
+
+**Q22 - Which city is John from?**
+
+From here, we can use his Facebook account to answer but the place is not explicitly specified. However, we can also guess with where he come from.
+
+![Q22](img/Q22.png)
+
+> 🚩Flag: *Las Vegas*
+
+---
+
+ ## Voicemail
+
+ We have a voice message from our boss that gives us a post on a reddit conspiracy group.
+
+ ![resistance](img/resistance.png)
+
+ ---
+
+## What is the cache?
+
+**Q23 - What is the name of the cache?**
+
+![secret](img/code.png)
+
+This is the first time I see this kind of secret code if there one here. :)
+
+Since this looks like UTF8 encoded it might means something if we translate it to ASCII encoding for example. I tried to find something on the tool "dcode".
+
+After a while, I couldn't find anything so I started searching on Google and finally found something that looks like our secret code: "webdings fonts".
+
+https://www.dcode.fr/webdings-font
+
+![web](img/web.png)
+
+The message translate to : *Incoming cache drop.Sloppyfpsgamer*
+
+If it talks about a cache it might be something on the website "Geocaching.com". Since we have no idea for what to look for, I guess we could try to look for a cache in Glen Rock but there was nothing obvious that I could find. However, after trying to find a way to search for a player instead of a cache, I found a match for the username "Sloppyfpsgamer".
+
+To find the "find Another player" option, I had to go on the dashboard of my profile > find another player and we find the search bar.
+
+![player](img/player.png)
+
+![sloppy](img/sloppy.png)
+
+We find in the tab Geocaches an owned cache.
+
+![cache](img/cache.png)
+
+We finally find the name of the cache in his cache.
+
+![Q23](img/recon.png)
+
+> 🚩Flag: *GRPC recon*
+
+**Q24 - What are the coordinates of the cache?**
+
+The answer could be found in the description of the cache.
+
+![coordinates](img/coordinate.png)
+
+*Note: the flag have a different syntax when copied from the first coordinate. You need to copy from the edit option or rewrite it manually.*
+
+> 🚩Flag: *N 39° 48.185 W 076° 53.772*
+
+**Q25 - What did the encrypted text say that was posted on the conspiracy forum?**
+
+I already have decypted the message above for this one.
+
+> 🚩Flag: *Incoming cache drop.Sloppyfpsgamer*
+
+---
+
+## Finding the cache
+
+Going to the cache, we find a small cache with a paper inside. There is a message written on it but it looks like encoded again.
+
+![rot13](img/rot13.jpg)
+
+---
+
+## Interressing communication techniques
+
+**Q26 - What does the text translate to?**
+
+When looking at the description of the cache, to find any hints I already noticed the "additional hints" section which contains an encryption system.
+
+The message on the paper looks a lot like this encyption, I tried it. And we obtain the message decrypted.
+
+![keys](img/key.png)
+
+*Note: the encryption was rot13 I saw it later.*
+
+> 🚩Flag: *Next flyover: Lake Marburg*
+
+**Q26 - What does N1822H reference?**
+
+The number looked like a reference to a plane number so to make sure that was the correct guess, I just checked that on Google and it was correct.
+
+> 🚩Flag: *plane*
+
+**Q27 - What type of aircraft is N1822H?**
+
+Since the plane could be found online, I could easily get his model but I had make some changes in the flag because it didn't want the full name.
+
+![planes](img/plane.png)
+
+> 🚩Flag: *Piper PA-28-181*
+
+---
+
+## Getting some flight data
+
+We are asking our boss to give us some information about the flight N1822H and he sends back a file.
+
+https://kasescenarios.com/FlightAware_N1822H_KFDK_KFDK_20230108.zip
+
+![flight data](img/data.png)
+
+---
