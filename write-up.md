@@ -503,3 +503,136 @@ https://kasescenarios.com/FlightAware_N1822H_KFDK_KFDK_20230108.zip
 ![flight data](img/data.png)
 
 ---
+
+## Come fly with me
+
+**Q28 - Which airport did this aircraft fly out of on January 8th 2023?**
+
+The zip file we got above could be imported into Google earth pro, and we obtained the whole flight data from the 8th of January 2023.
+
+![map](img/map.png)
+
+The view of the flight path from above show us where he started and ended.
+
+> 🚩Flag: *KFDK Airport*
+
+**Q29 - Which lake did the plane fly over on January the 8th?**
+
+On Google Earth pro, I could easily put a filter to look for lake.
+
+![layers](img/layers.png)
+
+We see on outlined lake and it was the lake where the cache was hidden.
+
+![lake](img/lake.png)
+
+If we look closer to the lake we have its name and it also confirm the hidden message in rot13 earlier: *Next flyover: Lake Marburg*
+
+> 🚩Flag: *Lake Marburg*
+
+---
+
+## Threatening phone call
+
+We got a call from an unknown number threatening us.
+
+![call](img/call.png)
+
+---
+
+## Unknow phone number
+
+**Q30 - Who is the owner of the phone number?**
+
+This question was very complex because a simple search on google or some phone database could get us the answer. I had no idea where to look for after using the only way I knew to find the flag. 
+
+After searching for a while, I decided to look back and look in the material we got so far. The only thing I didn't explore was "John Banks" Facebook profile in depth. So I started reading every single post he made, and finally found the number but not associated with the name of the owner yet.
+
+![banks](img/banks.png)
+
+I need to look for the admin assistant in GRPC.
+I went to the company website and look in the employee of the month. The owner was here.
+
+![admin](img/admin.png)
+
+> 🚩Flag: *Aleigha Brooks*
+
+---
+
+## Voicemail from Lisa
+
+Her voicemail mention the picture Peter told her to keep. She found out that the picture had a writting on the back of it.
+
+![peter1](img/peter1.jpg)
+
+![peter2](img/peter2.jpg)
+
+---
+
+## Image exploration
+
+**Q31 - 0x**
+
+Since my study is cybersecurity, I just understood that it was some kind if hexadecimal code. I started looking for the username on the picture since I could't explore the picture itself, I had no idea where to look for an old boat.
+
+Google result for "Hoagie215" was not helpful. But after typing it in another search engine just in case, I found a good result on Yandex, a NFT page on "Opensea".
+
+![open](img/open.png)
+
+This make so much sense now because the small boat drawing was the Opensea logo. And the hexa is the Etherum wallet.
+
+![ether](img/ether.png)
+
+> 🚩Flag: *0x446eEB480516B7824C4D938740A5a410CA0cdB34*
+
+**Q32 - Image 1**
+
+This is the same question as before, no context just "image 1". But saw that the Opensea account had 3 NFT images, even if we know that we still have no clue. So I tried to find something hidden with steganography, no results here.
+
+![robots](img/robot.png)
+
+![robot1](img/cool1.png)
+
+Nothing in the metadata too. It was also my first time with image analysis so I googled it to see if tools existed, and I found 2 tools on a website: https://www.osintessentials.com/image-analysis.
+
+- https://fotoforensics.com/ this tool showed some kind of writting in the robot but it was not clear enought. But it gave me a hint to start with.
+
+![cool12](img/cool12.png)
+
+- https://29a.ch/photo-forensics/#forensic-magnifier this tool had way more options than the first one. I tried every options and played with the parameters to find the hidden text.
+
+Using the luminance gradient with the max intensity, I can almost clearly see the text.
+
+![Q32](img/Q32.png)
+
+> 🚩Flag: *15.03.2023*
+
+**Q33 - Image 2**
+
+Same here no context and I guess it's on the "cool robot 2" NFT.
+
+![cool2](img/cool2.jpg)
+
+Using the same option as before we have a name now.
+
+![Q33](img/cool21.png)
+
+> 🚩Flag: *LU YANG SHUN*
+
+**Q34 - Image 3**
+
+Same option, we obtain coordinates.
+
+![cool3](img/cool3.jpg)
+
+![Q34](img/Q34.png)
+
+*Note: the flag syntax here changed a bit because if we put it like the picture, it won't work. The coordinates are good but we need to replace the dot in the middle by a coma.*
+
+> 🚩Flag: *39.264969, -76.598633*
+
+---
+
+## Final
+
+And that's it for the Dark waters, I never thought I would complete it hopefully some friends helped me for some of the hardest questions XD.
